@@ -66,7 +66,7 @@ const studentReviews = [
     name: "Mohit",
     institute: "IIIT Sonipat",
     course: "Topper · Classroom Program",
-    air: "AIR-7984 (JEE-ADVANCE)",
+    air: "",
     quote:
       "Y.K. Classes gave me crystal-clear fundamentals and the discipline to stay consistent every single day. The faculty's personal attention and test analysis turned my weak chapters into my biggest strengths.",
     image: "/images/toppers/Mohit.png",
@@ -76,7 +76,7 @@ const studentReviews = [
     name: "Tannu",
     institute: "Singreni Institute of Medical Science",
     course: "Topper · Classroom Program",
-    air: "AIR-10635",
+    air: "",
     quote:
       "Preparing for NEET at Y.K. Classes gave me clear NCERT mastery, smart exam strategy, and the confidence to stay calm under pressure. Regular doubt sessions and constant encouragement from teachers helped turn my medical dream into reality.",
     image: "/images/toppers/Tannu.png",
@@ -96,7 +96,7 @@ const studentReviews = [
     name: "Lovkesh",
     institute: "Autonomus State Medical College, Firozabad",
     course: "Topper · Classroom Program",
-    air: "AIR-2409*", // Add rank here later
+    air: "", // Add rank here later
     quote:
       "Joining Y.K. Classes was the best decision of my preparation journey. The mentors tracked my progress after every mock test and guided me step by step on how to improve speed and accuracy.",
     image: "/images/toppers/Lovkesh.png",
@@ -106,7 +106,7 @@ const studentReviews = [
     name: "Chahak",
     institute: "PGI Rohtak",
     course: "Topper · Classroom Program",
-    air: "AIR-7474", // Add rank here later
+    air: "", // Add rank here later
     quote:
       "The classroom teaching is engaging, well-paced, and completely exam-oriented. Weekly assessments and detailed feedback helped me build unshakable confidence right before the final exam.",
     image: "/images/toppers/Chahak.png",
@@ -116,7 +116,7 @@ const studentReviews = [
     name: "Himanshi",
     institute: "Maharishi Chaiwan Govt. Medical College, Narnaul",
     course: "Topper · Classroom Program",
-    air: "AIR-7377", // Add rank here later
+    air: "", // Add rank here later
     quote:
       "Y.K. Classes taught me how to study smart with clear notes, targeted DPPs, and timely revision. Whenever I felt stressed, my teachers guided me calmly and kept my morale high.",
     image: "/images/toppers/Himanshi.png",
@@ -126,7 +126,7 @@ const studentReviews = [
     name: "Yogita",
     institute: "Government Medical College, Jalaun",
     course: "Topper · Classroom Program",
-    air: "AIR-2208*", // Add rank here later
+    air: "", // Add rank here later
     quote:
       "The disciplined study routine and competitive peer group here pushed me to excel beyond my expectations. Every concept was explained from basics to advanced level with total clarity.",
     image: "/images/toppers/Yogita.png",
