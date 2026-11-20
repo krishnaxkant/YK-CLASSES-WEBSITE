@@ -1962,6 +1962,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The photo is framed properly so student heads and faces are fully visible without being cropped from the top */
 .review-photo-wrap {
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1972,6 +1973,22 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 14px;
   background: radial-gradient(circle at 50% 28%, #ffffff 0%, #ebf2fc 62%, #d8e5f8 100%);
   border: 1px solid rgba(29, 78, 216, 0.08);
+}
+
+.review-photo-brand-logo {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  padding: 2px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.14);
+  pointer-events: none;
+  user-select: none;
 }
 
 .review-photo,

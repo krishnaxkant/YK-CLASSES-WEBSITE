@@ -83,16 +83,6 @@ const studentReviews = [
   },
 
   {
-    name: "Muskan",
-    institute: "Y.K. Classes, Palwal",
-    course: "Topper · Classroom Program",
-    air: "", // Add rank here later
-    quote:
-      "The supportive environment and structured weekly tests at Y.K. Classes kept me focused throughout the year. Teachers always encouraged us to ask questions until every single doubt was 100% clear.",
-    image: "/images/toppers/Muskan.png",
-  },
-
-  {
     name: "Lovkesh",
     institute: "Y.K. Classes, Palwal",
     course: "Topper · Classroom Program",
@@ -100,16 +90,6 @@ const studentReviews = [
     quote:
       "Joining Y.K. Classes was the best decision of my preparation journey. The mentors tracked my progress after every mock test and guided me step by step on how to improve speed and accuracy.",
     image: "/images/toppers/Lovkesh.png",
-  },
-
-  {
-    name: "Deepika",
-    institute: "Y.K. Classes, Palwal",
-    course: "Topper · Classroom Program",
-    air: "", // Add rank here later
-    quote:
-      "What sets Y.K. Classes apart is how genuinely the teachers care about every student's growth. From revision plans to exam temperament, their constant motivation helped me give my very best.",
-    image: "/images/toppers/Deepika.png",
   },
 
   {
@@ -150,16 +130,6 @@ const studentReviews = [
     quote:
       "Consistent mentorship and real-exam pattern test series at Y.K. Classes made a massive difference in my score. The faculty never lets any student fall behind and always stays approachable.",
     image: "/images/toppers/Aman.png",
-  },
-
-  {
-    name: "Sankalp",
-    institute: "Y.K. Classes, Palwal",
-    course: "Topper · Classroom Program",
-    air: "", // Add rank here later
-    quote:
-      "From strengthening my basics to mastering high-level problems, Y.K. Classes supported me at every stage. The positive classroom energy and detailed error analysis helped me peak at the right time.",
-    image: "/images/toppers/Sankalp.png",
   },
 
   {
@@ -789,6 +759,12 @@ export default function Home() {
                 {loopedReviews.map((review, index) => (
                   <article className="review-card" key={`${review.name}-${index}`}>
                     <div className="review-photo-wrap">
+                      <img
+                        className="review-photo-brand-logo"
+                        src="/logo.png"
+                        alt="Y.K. Classes"
+                        loading="lazy"
+                      />
                       <img
                         className="review-photo topper-image"
                         src={review.image}
