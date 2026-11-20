@@ -544,21 +544,21 @@ export default function Home() {
 
               <img
                 className="hero-image hero-topper-image"
-                src="/images/toppers/mohit-hero-showcase.png"
-                alt="Mohit — JEE Advanced 2026 All India Rank 7984, Y.K. Classes"
+                src="/images/toppers/mohit-hero-showcase.jpg"
+                alt="Mohit — AIR-7984 (JEE-ADVANCE) Topper, Y.K. Classes"
               />
 
               <div className="image-shade hero-topper-shade" />
 
               <div className="hero-topper-ribbon">
                 <div className="hero-topper-meta">
-                  <span className="hero-topper-exam">JEE ADVANCED 2026</span>
+                  <span className="hero-topper-exam">JEE-ADVANCE TOPPER · 2026</span>
                   <strong>Mohit</strong>
                   <small>IIIT Sonipat · Y.K. Classes</small>
                 </div>
                 <div className="hero-topper-rank-pill">
-                  <span>ALL INDIA RANK</span>
-                  <b>AIR 7984</b>
+                  <span>JEE-ADVANCE</span>
+                  <b>AIR-7984</b>
                 </div>
               </div>
 
@@ -568,7 +568,7 @@ export default function Home() {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
                 <span className="note-icon gold-icon"><Sparkles size={19} /></span>
-                <span><strong>JEE Advanced 2026</strong><small>All India Rank · 7984</small></span>
+                <span><strong>AIR-7984 (JEE-ADVANCE)</strong><small>All India Rank · Y.K. Topper</small></span>
               </motion.div>
 
               <motion.div
@@ -656,7 +656,7 @@ export default function Home() {
           <div className="container about-grid">
             <Reveal className="about-visual about-topper-visual">
               <img
-                src="/images/toppers/tannu-about-showcase.png"
+                src="/images/toppers/tannu-about-showcase.jpg"
                 alt="Tannu — NEET 2026 All India Rank 10635, Y.K. Classes"
                 loading="lazy"
               />
