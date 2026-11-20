@@ -543,34 +543,41 @@ export default function Home() {
               <div className="art-backdrop" />
 
               <img
-                className="hero-image"
-                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1100&q=85"
-                alt="Student preparing for examinations"
+                className="hero-image hero-topper-image"
+                src="/images/toppers/mohit-hero-showcase.png"
+                alt="Mohit — JEE Advanced 2026 All India Rank 7984, Y.K. Classes"
               />
 
-              <div className="image-shade" />
+              <div className="image-shade hero-topper-shade" />
 
-              <div className="hero-art-label">
-                <span className="label-dot" />
-                YOUR NEXT CHAPTER STARTS HERE
+              <div className="hero-topper-ribbon">
+                <div className="hero-topper-meta">
+                  <span className="hero-topper-exam">JEE ADVANCED 2026</span>
+                  <strong>Mohit</strong>
+                  <small>IIIT Sonipat · Y.K. Classes</small>
+                </div>
+                <div className="hero-topper-rank-pill">
+                  <span>ALL INDIA RANK</span>
+                  <b>AIR 7984</b>
+                </div>
               </div>
 
               <motion.div
-                className="floating-note note-top"
+                className="floating-note note-top topper-floating-badge"
                 animate={{ y: [0, -6, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                <span className="note-icon"><Sparkles size={19} /></span>
-                <span><strong>Learn with purpose.</strong><small>Build strong fundamentals</small></span>
+                <span className="note-icon gold-icon"><Sparkles size={19} /></span>
+                <span><strong>JEE Advanced 2026</strong><small>All India Rank · 7984</small></span>
               </motion.div>
 
               <motion.div
-                className="floating-note note-bottom"
+                className="floating-note note-bottom topper-floating-badge"
                 animate={{ y: [0, 5, 0] }}
                 transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
               >
                 <span className="note-icon red-icon"><Target size={19} /></span>
-                <span><strong>One step at a time.</strong><small>Your journey, your progress</small></span>
+                <span><strong>Y.K. Topper Pride</strong><small>Consistent excellence</small></span>
               </motion.div>
             </Reveal>
           </div>
@@ -647,15 +654,27 @@ export default function Home() {
 
         <section className="section about-section" id="about">
           <div className="container about-grid">
-            <Reveal className="about-visual">
+            <Reveal className="about-visual about-topper-visual">
               <img
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1000&q=85"
-                alt="Students learning in an educational environment"
+                src="/images/toppers/tannu-about-showcase.png"
+                alt="Tannu — NEET 2026 All India Rank 10635, Y.K. Classes"
                 loading="lazy"
               />
-              <div className="about-overlay">
-                <span>THE Y.K. APPROACH</span>
-                <h3>Understand more.<br />Achieve with confidence.</h3>
+              <div className="about-topper-tag">
+                <Sparkles size={13} /> NEET 2026 TOPPER
+              </div>
+              <div className="about-overlay about-topper-overlay">
+                <div className="about-topper-row">
+                  <div>
+                    <span>NEET 2026 · ALL INDIA RANK</span>
+                    <h3>Tannu</h3>
+                    <p className="about-topper-college">Singreni Institute of Medical Science · Y.K. Classes</p>
+                  </div>
+                  <div className="about-topper-rank-badge">
+                    <span>AIR</span>
+                    <strong>10635</strong>
+                  </div>
+                </div>
               </div>
               <div className="about-accent" />
             </Reveal>

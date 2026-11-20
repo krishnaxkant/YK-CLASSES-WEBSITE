@@ -11,7 +11,7 @@ function Brand() {
                 className="brand-logo"
             />
             <img
-                src="/yk-wordmark.png"
+                src="/yk-wordmark.png?v=2"
                 alt="Y.K. Classes — A Path to Success"
                 className="brand-wordmark"
             />
