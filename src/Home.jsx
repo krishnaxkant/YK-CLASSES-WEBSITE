@@ -63,93 +63,113 @@ const benefits = [
 
 const studentReviews = [
   {
-    name: "Student 1",
-    institute: "AIIMS Delhi",
-    course: "Medical",
-    air: "AIR-1",
-    quote: "Add the student's genuine preparation experience here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Mohit",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later (e.g. "AIR-120")
+    quote:
+      "Y.K. Classes gave me crystal-clear fundamentals and the discipline to stay consistent every single day. The faculty's personal attention and test analysis turned my weak chapters into my biggest strengths.",
+    image: "/images/toppers/Mohit.png",
   },
 
   {
-    name: "Student 2",
-    institute: "IIT Delhi",
-    course: "Engineering",
-    air: "AIR-1",
-    quote: "Add the student's genuine preparation experience here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Lakshay",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "Every lecture here focuses on deep conceptual clarity rather than rote learning. Regular practice sheets and one-on-one doubt sessions helped me approach even the toughest questions with complete confidence.",
+    image: "/images/toppers/Lakshay.png",
   },
 
   {
-    name: "Student 3",
-    institute: "IIT Bombay",
-    course: "Engineering",
-    air: "AIR-1",
-    quote: "Add the student's genuine feedback here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Muskan",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "The supportive environment and structured weekly tests at Y.K. Classes kept me focused throughout the year. Teachers always encouraged us to ask questions until every single doubt was 100% clear.",
+    image: "/images/toppers/Muskan.png",
   },
 
   {
-    name: "Student 4",
-    institute: "AIIMS Delhi",
-    course: "Medical",
-    air: "AIR-1",
-    quote: "Add the student's genuine journey here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Lovkesh",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "Joining Y.K. Classes was the best decision of my preparation journey. The mentors tracked my progress after every mock test and guided me step by step on how to improve speed and accuracy.",
+    image: "/images/toppers/Lovkesh.png",
   },
 
   {
-    name: "Student 5",
-    institute: "IIT Bombay",
-    course: "Engineering",
-    air: "AIR-1",
-    quote: "Add the student's genuine experience here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Deepika",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "What sets Y.K. Classes apart is how genuinely the teachers care about every student's growth. From revision plans to exam temperament, their constant motivation helped me give my very best.",
+    image: "/images/toppers/Deepika.png",
   },
 
   {
-    name: "Student 6",
-    institute: "AIIMS Delhi",
-    course: "Medical",
-    air: "AIR-1",
-    quote: "Add the student's genuine review here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Chahak",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "The classroom teaching is engaging, well-paced, and completely exam-oriented. Weekly assessments and detailed feedback helped me build unshakable confidence right before the final exam.",
+    image: "/images/toppers/Chahak.png",
   },
 
   {
-    name: "Student 7",
-    institute: "IIT Bombay",
-    course: "Engineering",
-    air: "AIR-1",
-    quote: "Add the student's genuine success story here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Himanshi",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "Y.K. Classes taught me how to study smart with clear notes, targeted DPPs, and timely revision. Whenever I felt stressed, my teachers guided me calmly and kept my morale high.",
+    image: "/images/toppers/Himanshi.png",
   },
 
   {
-    name: "Student 8",
-    institute: "AIIMS Delhi",
-    course: "Medical",
-    air: "AIR-1",
-    quote: "Add the student's genuine feedback here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Yogita",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "The disciplined study routine and competitive peer group here pushed me to excel beyond my expectations. Every concept was explained from basics to advanced level with total clarity.",
+    image: "/images/toppers/Yogita.png",
   },
 
   {
-    name: "Student 9",
-    institute: "IIT Bombay",
-    course: "Engineering",
-    air: "AIR-1",
-    quote: "Add the student's genuine journey here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Aman",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "Consistent mentorship and real-exam pattern test series at Y.K. Classes made a massive difference in my score. The faculty never lets any student fall behind and always stays approachable.",
+    image: "/images/toppers/Aman.png",
   },
 
   {
-    name: "Student 10",
-    institute: "AIIMS Delhi",
-    course: "Medical",
-    air: "AIR-1",
-    quote: "Add the student's genuine experience here.",
-    image: "/images/toppers/topper-01.jpg",
+    name: "Sankalp",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "From strengthening my basics to mastering high-level problems, Y.K. Classes supported me at every stage. The positive classroom energy and detailed error analysis helped me peak at the right time.",
+    image: "/images/toppers/Sankalp.png",
+  },
+
+  {
+    name: "Badal",
+    institute: "Y.K. Classes, Palwal",
+    course: "Topper · Classroom Program",
+    air: "", // Add rank here later
+    quote:
+      "My journey at Y.K. Classes transformed the way I think and solve problems. Dedicated teachers, crisp study material, and regular performance reviews gave me a clear path to success.",
+    image: "/images/toppers/Badal.png",
   },
 ];
 
