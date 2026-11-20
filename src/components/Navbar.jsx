@@ -7,8 +7,13 @@ function Brand() {
         <Link to="/" className="brand" aria-label="Y.K. Classes Home">
             <img
                 src="/logo.png"
-                alt="Y.K. Classes — A Path to Success"
+                alt="Y.K. Classes Logo"
                 className="brand-logo"
+            />
+            <img
+                src="/yk-wordmark.png"
+                alt="Y.K. Classes — A Path to Success"
+                className="brand-wordmark"
             />
         </Link>
     );
