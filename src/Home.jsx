@@ -546,11 +546,11 @@ export default function Home() {
                 alt="Mohit — AIR-7984 JEE-ADVANCE(2026), IIIT-SONIPAT"
               />
               <div className="clean-topper-caption">
-                <div className="clean-topper-header-row">
-                  <span className="clean-topper-name">Mohit</span>
+                <div className="clean-topper-name">Mohit</div>
+                <div className="clean-topper-mid-row">
+                  <span className="clean-topper-air">AIR-7984</span>
                   <span className="clean-topper-institute">IIIT-SONIPAT</span>
                 </div>
-                <div className="clean-topper-air">AIR-7984</div>
                 <div className="clean-topper-exam">JEE-ADVANCE(2026)</div>
               </div>
             </Reveal>
@@ -636,11 +636,11 @@ export default function Home() {
                 loading="lazy"
               />
               <div className="clean-topper-caption">
-                <div className="clean-topper-header-row">
-                  <span className="clean-topper-name">Tannu</span>
+                <div className="clean-topper-name">Tannu</div>
+                <div className="clean-topper-mid-row">
+                  <span className="clean-topper-air">AIR-10635</span>
                   <span className="clean-topper-institute">SINGRENI INSTITUTE OF MEDICAL SCIENCE</span>
                 </div>
-                <div className="clean-topper-air">AIR-10635</div>
                 <div className="clean-topper-exam">NEET(2026)</div>
               </div>
             </Reveal>
