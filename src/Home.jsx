@@ -539,46 +539,20 @@ export default function Home() {
               </div>
             </Reveal>
 
-            <Reveal className="hero-art" delay={0.12}>
-              <div className="art-backdrop" />
-
+            <Reveal className="hero-art clean-topper-showcase" delay={0.12}>
               <img
-                className="hero-image hero-topper-image"
-                src="/images/toppers/mohit-hero-showcase.jpg"
-                alt="Mohit — AIR-7984 (JEE-ADVANCE) Topper, Y.K. Classes"
+                className="clean-topper-photo"
+                src="/images/toppers/mohit-hero-clean.png"
+                alt="Mohit — AIR-7984 JEE-ADVANCE(2026), IIIT-SONIPAT"
               />
-
-              <div className="image-shade hero-topper-shade" />
-
-              <div className="hero-topper-ribbon">
-                <div className="hero-topper-meta">
-                  <span className="hero-topper-exam">JEE-ADVANCE TOPPER · 2026</span>
-                  <strong>Mohit</strong>
-                  <small>IIIT Sonipat · Y.K. Classes</small>
+              <div className="clean-topper-caption">
+                <div className="clean-topper-header-row">
+                  <span className="clean-topper-name">Mohit</span>
+                  <span className="clean-topper-institute">IIIT-SONIPAT</span>
                 </div>
-                <div className="hero-topper-rank-pill">
-                  <span>JEE-ADVANCE</span>
-                  <b>AIR-7984</b>
-                </div>
+                <div className="clean-topper-air">AIR-7984</div>
+                <div className="clean-topper-exam">JEE-ADVANCE(2026)</div>
               </div>
-
-              <motion.div
-                className="floating-note note-top topper-floating-badge"
-                animate={{ y: [0, -6, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <span className="note-icon gold-icon"><Sparkles size={19} /></span>
-                <span><strong>AIR-7984 (JEE-ADVANCE)</strong><small>All India Rank · Y.K. Topper</small></span>
-              </motion.div>
-
-              <motion.div
-                className="floating-note note-bottom topper-floating-badge"
-                animate={{ y: [0, 5, 0] }}
-                transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <span className="note-icon red-icon"><Target size={19} /></span>
-                <span><strong>Y.K. Topper Pride</strong><small>Consistent excellence</small></span>
-              </motion.div>
             </Reveal>
           </div>
 
@@ -654,29 +628,21 @@ export default function Home() {
 
         <section className="section about-section" id="about">
           <div className="container about-grid">
-            <Reveal className="about-visual about-topper-visual">
+            <Reveal className="about-visual clean-topper-showcase">
               <img
-                src="/images/toppers/tannu-about-showcase.jpg"
-                alt="Tannu — NEET 2026 All India Rank 10635, Y.K. Classes"
+                className="clean-topper-photo"
+                src="/images/toppers/Tannu.png"
+                alt="Tannu — AIR-10635 NEET(2026), Singreni Institute of Medical Science"
                 loading="lazy"
               />
-              <div className="about-topper-tag">
-                <Sparkles size={13} /> NEET 2026 TOPPER
-              </div>
-              <div className="about-overlay about-topper-overlay">
-                <div className="about-topper-row">
-                  <div>
-                    <span>NEET 2026 · ALL INDIA RANK</span>
-                    <h3>Tannu</h3>
-                    <p className="about-topper-college">Singreni Institute of Medical Science · Y.K. Classes</p>
-                  </div>
-                  <div className="about-topper-rank-badge">
-                    <span>AIR</span>
-                    <strong>10635</strong>
-                  </div>
+              <div className="clean-topper-caption">
+                <div className="clean-topper-header-row">
+                  <span className="clean-topper-name">Tannu</span>
+                  <span className="clean-topper-institute">SINGRENI INSTITUTE OF MEDICAL SCIENCE</span>
                 </div>
+                <div className="clean-topper-air">AIR-10635</div>
+                <div className="clean-topper-exam">NEET(2026)</div>
               </div>
-              <div className="about-accent" />
             </Reveal>
 
             <Reveal className="about-content">

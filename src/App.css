@@ -496,6 +496,111 @@ h1, h2, h3, h4, h5, h6 {
   left: -26px;
 }
 
+/* Clean Topper Showcase (transparent portrait + crisp caption below, no blue backdrop or floating boxes) */
+.hero-art.clean-topper-showcase,
+.about-visual.clean-topper-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+  min-height: 0 !important;
+  background: transparent;
+}
+
+.clean-topper-showcase > img.clean-topper-photo {
+  width: min(390px, 100%);
+  height: auto;
+  max-height: 410px;
+  object-fit: contain;
+  object-position: bottom center;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  filter: drop-shadow(0 12px 24px rgba(7, 27, 73, 0.12));
+}
+
+.clean-topper-caption {
+  width: min(390px, 100%);
+  margin-top: 8px;
+  padding-top: 14px;
+  border-top: 2px solid rgba(7, 27, 73, 0.12);
+  text-align: center;
+}
+
+.clean-topper-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 6px;
+}
+
+.clean-topper-name {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 800;
+  color: var(--navy);
+  white-space: nowrap;
+}
+
+.clean-topper-institute {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: var(--blue);
+  text-align: right;
+  line-height: 1.25;
+}
+
+.clean-topper-air {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 3.6vw, 42px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  color: var(--red);
+  margin: 4px 0 4px;
+}
+
+.clean-topper-exam {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  color: var(--navy);
+}
+
+@media (max-width: 768px) {
+  .clean-topper-showcase > img.clean-topper-photo {
+    width: min(330px, 92%);
+    max-height: 350px;
+    min-height: 0;
+    height: auto;
+  }
+
+  .clean-topper-caption {
+    width: min(330px, 92%);
+  }
+
+  .clean-topper-name {
+    font-size: 18px;
+  }
+
+  .clean-topper-institute {
+    font-size: 11.5px;
+  }
+
+  .clean-topper-air {
+    font-size: 30px;
+  }
+
+  .clean-topper-exam {
+    font-size: 13.5px;
+  }
+}
+
 .hero-art-label {
   position: absolute;
   z-index: 3;

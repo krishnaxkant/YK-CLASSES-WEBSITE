@@ -6,9 +6,9 @@ import {
     Mail,
 } from "lucide-react";
 
-function Brand() {
+function Brand({ onNavigateTop }) {
     return (
-        <Link to="/" className="brand footer-brand">
+        <Link to="/" className="brand footer-brand" onClick={onNavigateTop}>
             <img
                 src="/logo.png"
                 alt="Y.K. Classes — A Path to Success"
@@ -19,6 +19,12 @@ function Brand() {
 }
 
 export default function Footer() {
+    const scrollToPageTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+    };
+
     const handleBackToTop = (e) => {
         e.preventDefault();
         window.scrollTo({
@@ -47,7 +53,7 @@ export default function Footer() {
             <div className="container footer-grid">
                 {/* Column 1: About */}
                 <div className="footer-about">
-                    <Brand />
+                    <Brand onNavigateTop={scrollToPageTop} />
 
                     <h3>Learn. Practice. Succeed.</h3>
 
@@ -57,21 +63,21 @@ export default function Footer() {
                         and work towards their academic goals.
                     </p>
 
-                    <a href="/#contact" className="footer-cta">
+                    <Link to="/#contact" className="footer-cta">
                         Enquire Now <ArrowUpRight size={16} />
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Column 2: Quick Links */}
                 <div className="footer-column">
                     <h3>Quick Links</h3>
 
-                    <Link to="/">Home</Link>
-                    <a href="/#about">About Us</a>
-                    <Link to="/fees">ACST</Link>
-                    <Link to="/yksat">YKSAT</Link>
-                    <Link to="/reviews">Student Reviews</Link>
-                    <a href="/#contact">Contact Us</a>
+                    <Link to="/" onClick={scrollToPageTop}>Home</Link>
+                    <Link to="/#about">About Us</Link>
+                    <Link to="/fees" onClick={scrollToPageTop}>ACST</Link>
+                    <Link to="/yksat" onClick={scrollToPageTop}>YKSAT</Link>
+                    <Link to="/reviews" onClick={scrollToPageTop}>Student Reviews</Link>
+                    <Link to="/#contact">Contact Us</Link>
                 </div>
 
                 {/* Column 3: Contact */}

@@ -37,7 +37,30 @@ const ROUTE_SEO = {
 };
 
 export default function SiteLayout() {
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const targetId = hash.replace(/^#/, "");
+            if (targetId === "home" || targetId === "top") {
+                window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+                return;
+            }
+            const timer = setTimeout(() => {
+                const el = document.getElementById(targetId);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                } else {
+                    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+                }
+            }, 60);
+            return () => clearTimeout(timer);
+        }
+
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+    }, [pathname, hash]);
 
     useEffect(() => {
         const cleanPath = pathname === "/" ? "/" : pathname.replace(/\/+$/, "");
